@@ -1,7 +1,5 @@
 # Card Codes Generator
 
-## Card Codes Generator
-
 ![Card codes generator](/img/features/codes.png)
 
 ### How to use

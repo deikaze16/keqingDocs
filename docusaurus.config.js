@@ -24,12 +24,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/deikaze16/keqingDocs/edit/master',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/deikaze16/keqingDocs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -78,6 +78,14 @@ const config = {
             label: 'Documentation',
           },
           {
+            label: 'Blog',
+            to: '/blog'
+          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'left',
+          // },
+          {
             to: '/premium',
             className: 'button button--outline',
             position: 'right',
@@ -122,7 +130,7 @@ const config = {
             title: 'Contact',
             items: [
               {
-                html: `Discord:   <span>Dei#6089</span>`
+                html: `Discord:   <span class="mention">@Dei#6089</span>`
               },
             ],
           },
@@ -134,6 +142,20 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    // i18n: {
+    //   defaultLocale: 'en',
+    //   locales: ['en', 'id'],
+    //   localeConfigs: {
+    //     en: {
+    //       htmlLang: 'en-US',
+    //     },
+    //     // You can omit a locale (e.g. fr) if you don't need to override the defaults
+    //     id: {
+    //       htmlLang: 'id-ID',
+    //     },
+    //   },
+    // },
+  
 };
 
 module.exports = config;

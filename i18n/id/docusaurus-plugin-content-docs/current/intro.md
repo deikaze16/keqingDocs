@@ -1,58 +1,56 @@
 import Admonition from '@theme/Admonition';
 import { Badge, Card } from 'antd';
 
-# Introduction
+# Intro
 
-## What is Keqing Bot?
+## Apa itu Keqing Bot?
 
-Keqing bot is a Discord bot, made to help Karuta players to calculate their work effort's cards, frames testing, and many more.
+Keqing bot adalah sebuah program Discord bot, dibuat untuk membantu Pemain Karuta untuk mengkalkulasi work effort, testing frame, dan banyak lagi
 
-<Badge.Ribbon text="v6.6.2">
+<Badge.Ribbon text="v6.4.4">
   <Admonition type="note" title="Introduction">
     <ul>
-      <li>Bot Name : <b>Keqing Bot</b></li>
-      <li>Developer: <em>@Dei#6089</em></li>
+      <li>Nama Bot : <b>Keqing Bot</b></li>
+      <li>Pengembang: <em>@Dei#6089</em></li>
       <li>Support Server : <a href="https://discord.gg/keqingbot">Keqing [Bot] Mains</a></li>
       <li>Prefix : <code>a</code></li>
       <li>Libraries : <code>discord.js</code>, <code>mongoose</code>, <code>mathjs</code>, <code>canvas</code>, <code>express</code></li>
-      <li>Used by : 6,09 million people in more than 22,000+ servers</li>
+      <li>Digunakan Oleh : 6,09 juta orang di lebih dari 22,000+ server</li>
     </ul>
   </Admonition>
 </Badge.Ribbon>
 
-First of all, Thank you so much for using my bot. **You are awesome**!
+Pertama-tama, Terima kasih banyak karena telah menggunakan bot saya.
 
-This documentation will help you, step by step, regarding each of *@Keqing*'s features. Please go through carefully to understand how this bot works.
+Dokumentasi ini akan membantu kamu, langkah demi langkah, mengenai setiap Fitur *@Keqing*. Silakan baca dengan cermat untuk memahami cara kerja bot ini.
 
 :::tip
-Join [Keqing [Bot] Mains](https://discord.gg/keqingbot) if you need help with Keqing's usage.
+Join [Keqing [Bot] Mains](https://discord.gg/keqingbot) jika kamu memerlukan bantuan seputar *@Keqing*
 :::
 
-## Getting Started
+## Mulai
 
-### Invite the bot
-First invite the bot if you haven't. [Click here](https://discord.com/oauth2/authorize?client_id=772642704257187840&permissions=2416307264&scope=bot%20applications.commands) to invite
+### Invite bot
+Pertama-tama invite dulu *@keqing* nya kalau belum. [Klik disini](https://discord.com/oauth2/authorize?client_id=772642704257187840&permissions=2416307264&scope=bot%20applications.commands) buat invite
 
-### How do I read this wiki?
+### Bagaimana cara membaca panduan ini?
 
 :::info
 Default Prefix : `a` <br />
-You can change it by running the `asetprefix <new prefix>` command
-
-Documentation Syntax
+Ini bisa diganti, cukup jalanin `asetprefix <new prefix>` command
 
 `[p]` - prefix<br />
-`[ ]` - optional parameter<br />
-`< >` - required parameter<br />
-`<thing1 | thing2>` - select one of the given options
+`[ ]` - parameter gak wajib<br />
+`< >` - parameter wajib<br />
+`<thing1 | thing2>` - pilih salah satu
 :::
 
 :::warning
-Do not literally type out `< > [ ] |` etc
+Btw yang `< > [ ] |` dll. itu ngga usah ditulis
 :::
 
-### How to setup
-In order to use this bot, you must grants these permissions to *@Keqing*
+### Cara Setup
+Untuk menggunakan bot ini, Kamu harus memberikan izin berikut ke *@Keqing*
 
 - Read Text Channels
 - Send Messages
@@ -65,7 +63,7 @@ In order to use this bot, you must grants these permissions to *@Keqing*
 - Add Reactions
 
 :::tip
-For non-premium servers, It's better to give your server members the **`Add Reactions`** permisssion to make our features works.
+Untuk server non-premium, Lebih baik berikan izin **`Add Reactions`** ke server member kalian agar fitur-fitur bot ini dapat berfungsi
 :::
 <!-- ---
 sidebar_position: 1

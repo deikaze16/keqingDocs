@@ -1,0 +1,112 @@
+html[data-theme='dark'] {
+  :root {
+    --ifm-color-primary: #3b82f6;
+    --ifm-color-primary-dark: #054cfd;
+    --ifm-color-primary-darker: #0247f1;
+    --ifm-color-primary-darkest: #023ac6;
+    --ifm-color-primary-light: #3d74fd;
+    --ifm-color-primary-lighter: #4c7efd;
+    --ifm-color-primary-lightest: #769dfe;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+
+  main {
+		background: #242527;
+		border: 1px solid #282828;
+    color: #eee;
+	}
+
+  .hero {
+    background: darken($color: #242526, $amount: 2);
+  }
+
+  section, .blog-wrapper {
+    background: #242527;
+    border: none;
+    h3 {
+      color: #fff;
+    }
+    p {
+      color: #ccc;
+    }
+    h5 {
+      color: #ccc;
+    }
+  }
+
+  aside > nav > div {
+    color: #ccc;
+  }
+
+  article > header > h2 > a {
+    color: #3b82f6;
+  }
+
+  em, .mention  {
+		cursor: pointer;
+		font-weight: bold;
+		background: #3b406f !important;
+		color: #c8cae9 !important;
+		font-style: normal;
+		padding: 0 2px;
+		border-radius: 3px;
+		font-weight: 600;
+	}
+
+  .docusaurus-highlight-code-line {
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+  .admonition {
+		background: #1e1e1e;
+		color: #bec0c2;
+		&.admonition-info {
+			border-left-color: #3b82f6;
+		}
+    h5 {
+      color: #fff;
+    }
+	}
+
+  hr {
+		border-color: #3f4247;
+	}
+
+	code {
+		background: #333438;
+	}
+
+  .footer--dark {
+		background: #292b2f;
+	}
+
+  /* DOCS */
+  article {
+    h1 {
+      color: #3b82f6;
+      &::before {
+        content: "# ";
+      }
+    }
+    a {
+      color: #07a3e0;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    color: #aaa;
+  }
+
+  .menu {
+		background: darken($color: #242526, $amount: 2);
+	}
+
+  .pagination-nav {
+		a {
+			color: #3b82f6;
+		}
+	}
+}

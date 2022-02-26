@@ -8,11 +8,187 @@
   --ifm-color-primary-lightest: #769dfe;
 }
 
+html[data-theme='dark'] {
+  /* DOCS */
+}
+
+html[data-theme='dark'] :root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #054cfd;
+  --ifm-color-primary-darker: #0247f1;
+  --ifm-color-primary-darkest: #023ac6;
+  --ifm-color-primary-light: #3d74fd;
+  --ifm-color-primary-lighter: #4c7efd;
+  --ifm-color-primary-lightest: #769dfe;
+}
+
+html[data-theme='dark'] h1, html[data-theme='dark'] h2, html[data-theme='dark'] h3, html[data-theme='dark'] h4, html[data-theme='dark'] h5, html[data-theme='dark'] h6 {
+  color: #fff;
+}
+
+html[data-theme='dark'] main {
+  background: #242527;
+  border: 1px solid #282828;
+  color: #eee;
+}
+
+html[data-theme='dark'] .hero {
+  background: #1f2021;
+}
+
+html[data-theme='dark'] section, html[data-theme='dark'] .blog-wrapper {
+  background: #242527;
+  border: none;
+}
+
+html[data-theme='dark'] section h3, html[data-theme='dark'] .blog-wrapper h3 {
+  color: #fff;
+}
+
+html[data-theme='dark'] section p, html[data-theme='dark'] .blog-wrapper p {
+  color: #ccc;
+}
+
+html[data-theme='dark'] section h5, html[data-theme='dark'] .blog-wrapper h5 {
+  color: #ccc;
+}
+
+html[data-theme='dark'] aside > nav > div {
+  color: #ccc;
+}
+
+html[data-theme='dark'] article > header > h2 > a {
+  color: #3b82f6;
+}
+
+html[data-theme='dark'] em, html[data-theme='dark'] .mention {
+  cursor: pointer;
+  font-weight: bold;
+  background: #3b406f !important;
+  color: #c8cae9 !important;
+  font-style: normal;
+  padding: 0 2px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] .admonition {
+  background: #1e1e1e;
+  color: #bec0c2;
+}
+
+html[data-theme='dark'] .admonition.admonition-info {
+  border-left-color: #3b82f6;
+}
+
+html[data-theme='dark'] .admonition h5 {
+  color: #fff;
+}
+
+html[data-theme='dark'] hr {
+  border-color: #3f4247;
+}
+
+html[data-theme='dark'] code {
+  background: #333438;
+}
+
+html[data-theme='dark'] .footer--dark {
+  background: #292b2f;
+}
+
+html[data-theme='dark'] article {
+  color: #aaa;
+}
+
+html[data-theme='dark'] article h1 {
+  color: #3b82f6;
+}
+
+html[data-theme='dark'] article h1::before {
+  content: "# ";
+}
+
+html[data-theme='dark'] article a {
+  color: #07a3e0;
+}
+
+html[data-theme='dark'] article a:hover {
+  text-decoration: underline;
+}
+
+html[data-theme='dark'] .menu {
+  background: #1f2021;
+}
+
+html[data-theme='dark'] .pagination-nav a {
+  color: #3b82f6;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] table {
+  border-color: #242526;
+}
+
+html[data-theme='dark'] table tbody tr:nth-child(even) {
+  background: #2f3136;
+}
+
+html[data-theme='dark'] .menu__link {
+  color: #8e9297;
+}
+
+html[data-theme='dark'] li > .menu__link--active {
+  background: #17213c;
+  border-right: 3px solid #268ded;
+  color: #268ded;
+}
+
+html[data-theme='dark'] .ant-list-split .ant-list-item {
+  border-color: #202225 !important;
+}
+
+html[data-theme='dark'] .ant-list, html[data-theme='dark'] .ant-list-item-main {
+  color: #fff !important;
+}
+
+html[data-theme='dark'] .navbar {
+  background: #161616;
+  border-bottom: 1px solid #282828;
+}
+
+html[data-theme='dark'] .navbar a.navbar__link--active {
+  color: #1e78e9;
+}
+
+html[data-theme='dark'] .ant-divider-horizontal.ant-divider-with-text {
+  border-top-color: #4b4646 !important;
+}
+
+html[data-theme='dark'] .ant-divider {
+  background: #242527;
+}
+
+html[data-theme='dark'] .ant-divider-inner-text h1, html[data-theme='dark'] .ant-divider-inner-text h3 {
+  color: #fff !important;
+}
+
+html[data-theme='dark'] .ant-statistic-title {
+  color: #3b82f6;
+}
+
+html[data-theme='dark'] .ant-statistic-content {
+  color: #ccc;
 }
 
 .navbar {
@@ -84,6 +260,7 @@ em, .mention {
 code {
   background: #dfe0e2;
   border: none;
+  padding: 2px 5px;
 }
 
 li.menu__list-item:not(.theme-doc-sidebar-item-category) a {
