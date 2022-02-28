@@ -2,20 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deikaze16.github.io/blog</id>
     <title>Keqing Bot Blog</title>
-    <updated>2022-02-20T00:00:00.000Z</updated>
+    <updated>2022-02-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deikaze16.github.io/blog"/>
     <subtitle>Keqing Bot Blog</subtitle>
     <icon>https://deikaze16.github.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Update v.6.6.2]]></title>
+        <id>update-v.6.6.2</id>
+        <link href="https://deikaze16.github.io/blog/update-v.6.6.2"/>
+        <updated>2022-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added 3 new bit frames]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="added-3-new-bit-frames">Added 3 new bit frames<a class="hash-link" href="#added-3-new-bit-frames" title="Direct link to heading">​</a></h3><ul><li>Kawaii Bento</li><li>Pocket Pet</li><li>Haunted stone</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="added-2-new-carousel-frames">Added 2 new carousel frames<a class="hash-link" href="#added-2-new-carousel-frames" title="Direct link to heading">​</a></h3><ul><li>Japanese Alley</li><li>Glory</li></ul><blockquote><p>Easel when?</p></blockquote>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+            <uri>https://github.com/</uri>
+        </author>
+        <category label="Update" term="Update"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update v.6.6.1]]></title>
+        <id>update-v.6.6.1</id>
+        <link href="https://deikaze16.github.io/blog/update-v.6.6.1"/>
+        <updated>2022-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Added Mardi Gras frame]]></summary>
+        <content type="html"><![CDATA[<ul><li>Added Mardi Gras frame</li><li>Added Wanted frame</li></ul>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+            <uri>https://github.com/</uri>
+        </author>
+        <category label="Update" term="Update"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update v.6.6.0]]></title>
+        <id>update-v.6.6.0</id>
+        <link href="https://deikaze16.github.io/blog/update-v.6.6.0"/>
+        <updated>2022-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Added Noxious frame]]></summary>
+        <content type="html"><![CDATA[<ul><li>Added Noxious frame</li></ul>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+            <uri>https://github.com/</uri>
+        </author>
+        <category label="Update" term="Update"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://deikaze16.github.io/blog/welcome"/>
-        <updated>2022-02-20T00:00:00.000Z</updated>
+        <updated>2022-02-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this website @everyone. First of all, Thank you so much for using my bot. You are awesome!.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to this website <em>@everyone</em>. First of all, Thank you so much for using my bot. <strong>You are awesome!</strong>.</p><p>I guess i will start posting the bot updates in this blog instead of <em>#news</em> channel.</p><p>Btw if you need any help with <em>@Keqing</em>'s usage, you can join <a href="https://discord.gg/keqingbot" target="_blank" rel="noopener noreferrer">Keqing <!-- -->[Bot]<!-- --> Mains</a>. Don't forget to ping <em>@helpers</em> so we won't miss that out.</p>]]></content>
         <author>
-            <name>Bayu Andrian Rukmana</name>
+            <name>Bayu A.R.</name>
             <uri>https://github.com/</uri>
         </author>
         <category label="Anything" term="Anything"/>

@@ -4,14 +4,41 @@
         <title>Keqing Bot Blog</title>
         <link>https://deikaze16.github.io/blog</link>
         <description>Keqing Bot Blog</description>
-        <lastBuildDate>Sun, 20 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Update v.6.6.2]]></title>
+            <link>https://deikaze16.github.io/blog/update-v.6.6.2</link>
+            <guid>update-v.6.6.2</guid>
+            <pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Added 3 new bit frames]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="added-3-new-bit-frames">Added 3 new bit frames<a class="hash-link" href="#added-3-new-bit-frames" title="Direct link to heading">​</a></h3><ul><li>Kawaii Bento</li><li>Pocket Pet</li><li>Haunted stone</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="added-2-new-carousel-frames">Added 2 new carousel frames<a class="hash-link" href="#added-2-new-carousel-frames" title="Direct link to heading">​</a></h3><ul><li>Japanese Alley</li><li>Glory</li></ul><blockquote><p>Easel when?</p></blockquote>]]></content:encoded>
+            <category>Update</category>
+        </item>
+        <item>
+            <title><![CDATA[Update v.6.6.1]]></title>
+            <link>https://deikaze16.github.io/blog/update-v.6.6.1</link>
+            <guid>update-v.6.6.1</guid>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Added Mardi Gras frame]]></description>
+            <content:encoded><![CDATA[<ul><li>Added Mardi Gras frame</li><li>Added Wanted frame</li></ul>]]></content:encoded>
+            <category>Update</category>
+        </item>
+        <item>
+            <title><![CDATA[Update v.6.6.0]]></title>
+            <link>https://deikaze16.github.io/blog/update-v.6.6.0</link>
+            <guid>update-v.6.6.0</guid>
+            <pubDate>Sun, 13 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Added Noxious frame]]></description>
+            <content:encoded><![CDATA[<ul><li>Added Noxious frame</li></ul>]]></content:encoded>
+            <category>Update</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://deikaze16.github.io/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this website @everyone. First of all, Thank you so much for using my bot. You are awesome!.]]></description>
             <content:encoded><![CDATA[<p>Welcome to this website <em>@everyone</em>. First of all, Thank you so much for using my bot. <strong>You are awesome!</strong>.</p><p>I guess i will start posting the bot updates in this blog instead of <em>#news</em> channel.</p><p>Btw if you need any help with <em>@Keqing</em>'s usage, you can join <a href="https://discord.gg/keqingbot" target="_blank" rel="noopener noreferrer">Keqing <!-- -->[Bot]<!-- --> Mains</a>. Don't forget to ping <em>@helpers</em> so we won't miss that out.</p>]]></content:encoded>
             <category>Anything</category>
