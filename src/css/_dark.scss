@@ -23,7 +23,7 @@ html[data-theme='dark'] {
     background: darken($color: #242526, $amount: 2);
   }
 
-  section, .blog-wrapper {
+  section, .blog-wrapper, .main-wrapper {
     background: #242527;
     border: none;
     h3 {
