@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deikaze16.github.io/blog</id>
     <title>Keqing Bot Blog</title>
-    <updated>2022-03-01T00:00:00.000Z</updated>
+    <updated>2022-03-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deikaze16.github.io/blog"/>
     <subtitle>Keqing Bot Blog</subtitle>
     <icon>https://deikaze16.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[All Keqing Bot reactions feature]]></title>
+        <id>all-keqing-reactions</id>
+        <link href="https://deikaze16.github.io/blog/all-keqing-reactions"/>
+        <updated>2022-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi @everyone today i'll share the list of reactions in @Keqing Bot that you might didn't know before.]]></summary>
+        <content type="html"><![CDATA[<p>Hi <em>@everyone</em> today i'll share the list of reactions in <em>@Keqing Bot</em> that you might didn't know before.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="️">🖌️<a class="hash-link" href="#️" title="Direct link to heading">​</a></h2><p>In Discord : <code>paintbrush</code></p><p>This emoji is for <strong>Frame tester</strong>. Run the <code>klu</code> command and react with it. Read this <a href="http://localhost:3000/docs/Features/frame-tester" target="_blank" rel="noopener noreferrer">tutorial</a> if you don't understand</p><h2>💞</h2><p>In Discord : <code>revolving_hearts</code></p><p>This emoji is for <strong>Koibito finder</strong>. Run the <code>klu</code> command and react with it.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="-1">🔢<a class="hash-link" href="#-1" title="Direct link to heading">​</a></h2><p>In Discord : <code>1234</code></p><p>This emoji is for <strong>Effort calculator</strong>. Run the <code>kwi</code> command and react with it. Read this <a href="http://localhost:3000/docs/Features/effort-calculator" target="_blank" rel="noopener noreferrer">tutorial</a> if you don't understand</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="-2">📝<a class="hash-link" href="#-2" title="Direct link to heading">​</a></h2><p>In Discord : <code>pencil</code></p><p>This emoji is for <strong>Card codes generator</strong>. Run the <code>kc</code> command and react with it. Read this <a href="http://localhost:3000/docs/Features/card-codes-generator" target="_blank" rel="noopener noreferrer">tutorial</a> if you don't understand</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="-3">🔍<a class="hash-link" href="#-3" title="Direct link to heading">​</a></h2><p>In Discord : <code>mag</code></p><p>This emoji is for <strong>Card codes filtering</strong>. Run the <code>kc</code> command and react with it. You can filter the card codes, get the untagged cards, or get &lt; 100 wish cards codes.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="-4">📄<a class="hash-link" href="#-4" title="Direct link to heading">​</a></h2><p>In Discord : <code>page_facing_up</code></p><p>This emoji is used for a hidden feature <strong>Full collection coppier</strong>. Run the <code>kc</code> command and react with it.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="-5">➕<a class="hash-link" href="#-5" title="Direct link to heading">​</a></h2><p>In Discord : <code>heavy_plus_sign</code></p><p>This emoji is for <strong>Bits calculator</strong>. Run the <code>kbi</code> command and react with it. Read this <a href="http://localhost:3000/docs/Features/bits-calculator" target="_blank" rel="noopener noreferrer">tutorial</a> if you don't understand</p>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+            <uri>https://github.com/</uri>
+        </author>
+        <category label="Info" term="Info"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update v.6.7.0 - A new command and 3 new frames]]></title>
         <id>update-v.6.7.0</id>
