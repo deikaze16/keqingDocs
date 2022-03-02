@@ -2,13 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deikaze16.github.io/blog</id>
     <title>Keqing Bot Blog</title>
-    <updated>2022-02-26T00:00:00.000Z</updated>
+    <updated>2022-03-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deikaze16.github.io/blog"/>
     <subtitle>Keqing Bot Blog</subtitle>
     <icon>https://deikaze16.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Update v.6.6.2]]></title>
+        <title type="html"><![CDATA[Update v.6.7.0 - A new command and 3 new frames]]></title>
+        <id>update-v.6.7.0</id>
+        <link href="https://deikaze16.github.io/blog/update-v.6.7.0"/>
+        <updated>2022-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added a new command]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="added-a-new-command">Added a new command<a class="hash-link" href="#added-a-new-command" title="Direct link to heading">​</a></h3><p>Since many people asking me "How to restrict the <code>astar</code> command?", so i decided to make this command.</p><p>Name : <code>astaraccess</code> <br>
+Description : You can add  the role requirements  to access the astar command <br>
+Usage : <code>astaraccess &lt;@role | false&gt;</code> <br></p><p>Example : </p><ul><li>astaraccess <em>@mod</em></li><li>astaracess false</li></ul><div class="admonition admonition-danger alert alert--danger"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</h5></div><div class="admonition-content"><p>You need <code>ADMINISTRATOR</code> permission to perform this command</p></div></div><h3 class="anchor anchorWithStickyNavbar_mojV" id="added-3-new-frames">Added 3 new frames<a class="hash-link" href="#added-3-new-frames" title="Direct link to heading">​</a></h3><h4 class="anchor anchorWithStickyNavbar_mojV" id="event-frame">Event frame<a class="hash-link" href="#event-frame" title="Direct link to heading">​</a></h4><ul><li>Karuta Anniversary 2022</li></ul><h4 class="anchor anchorWithStickyNavbar_mojV" id="carousel-frame">Carousel frame<a class="hash-link" href="#carousel-frame" title="Direct link to heading">​</a></h4><ul><li>Prison Break</li></ul><h4 class="anchor anchorWithStickyNavbar_mojV" id="special-frame">Special frame<a class="hash-link" href="#special-frame" title="Direct link to heading">​</a></h4><ul><li>Shimmer</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="modified-a-frame">Modified a frame<a class="hash-link" href="#modified-a-frame" title="Direct link to heading">​</a></h3><ul><li>Renamed <code>Karuta Anniversary</code> to -&gt; <code>Karuta Anniversary 2021</code></li></ul>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+            <uri>https://github.com/</uri>
+        </author>
+        <category label="Update" term="Update"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update v.6.6.2 - 3 new bit frames and 2 new carousel frame]]></title>
         <id>update-v.6.6.2</id>
         <link href="https://deikaze16.github.io/blog/update-v.6.6.2"/>
         <updated>2022-02-26T00:00:00.000Z</updated>
@@ -21,7 +36,7 @@
         <category label="Update" term="Update"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Update v.6.6.1]]></title>
+        <title type="html"><![CDATA[Update v.6.6.1 - Mardi gras and Wanted frame]]></title>
         <id>update-v.6.6.1</id>
         <link href="https://deikaze16.github.io/blog/update-v.6.6.1"/>
         <updated>2022-02-23T00:00:00.000Z</updated>
@@ -34,7 +49,7 @@
         <category label="Update" term="Update"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Update v.6.6.0]]></title>
+        <title type="html"><![CDATA[Update v.6.6.0 - Noxious frame]]></title>
         <id>update-v.6.6.0</id>
         <link href="https://deikaze16.github.io/blog/update-v.6.6.0"/>
         <updated>2022-02-13T00:00:00.000Z</updated>
