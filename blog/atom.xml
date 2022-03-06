@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deikaze16.github.io/blog</id>
     <title>Keqing Bot Blog</title>
-    <updated>2022-03-02T00:00:00.000Z</updated>
+    <updated>2022-03-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deikaze16.github.io/blog"/>
     <subtitle>Keqing Bot Blog</subtitle>
     <icon>https://deikaze16.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Update v.6.7.1 - Petals and interface frame]]></title>
+        <id>update-v.6.7.1</id>
+        <link href="https://deikaze16.github.io/blog/update-v.6.7.1"/>
+        <updated>2022-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added 1 new carousel frame]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="added-1-new-carousel-frame">Added 1 new carousel frame<a class="hash-link" href="#added-1-new-carousel-frame" title="Direct link to heading">​</a></h3><ul><li>Petals</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="added-1-new-special-frame">Added 1 new special frame<a class="hash-link" href="#added-1-new-special-frame" title="Direct link to heading">​</a></h3><ul><li>Interface</li></ul><blockquote><p>Easel when?</p></blockquote>]]></content>
+        <author>
+            <name>Bayu A.R.</name>
+        </author>
+        <category label="Update" term="Update"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[All Keqing Bot reactions feature]]></title>
         <id>all-keqing-reactions</id>

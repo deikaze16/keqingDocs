@@ -4,9 +4,18 @@
         <title>Keqing Bot Blog</title>
         <link>https://deikaze16.github.io/blog</link>
         <description>Keqing Bot Blog</description>
-        <lastBuildDate>Wed, 02 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Update v.6.7.1 - Petals and interface frame]]></title>
+            <link>https://deikaze16.github.io/blog/update-v.6.7.1</link>
+            <guid>update-v.6.7.1</guid>
+            <pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Added 1 new carousel frame]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="added-1-new-carousel-frame">Added 1 new carousel frame<a class="hash-link" href="#added-1-new-carousel-frame" title="Direct link to heading">​</a></h3><ul><li>Petals</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="added-1-new-special-frame">Added 1 new special frame<a class="hash-link" href="#added-1-new-special-frame" title="Direct link to heading">​</a></h3><ul><li>Interface</li></ul><blockquote><p>Easel when?</p></blockquote>]]></content:encoded>
+            <category>Update</category>
+        </item>
         <item>
             <title><![CDATA[All Keqing Bot reactions feature]]></title>
             <link>https://deikaze16.github.io/blog/all-keqing-reactions</link>
