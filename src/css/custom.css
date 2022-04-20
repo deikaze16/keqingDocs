@@ -191,6 +191,23 @@ html[data-theme='dark'] .ant-statistic-content {
   color: #ccc;
 }
 
+article.margin-bottom--xl {
+  margin-bottom: 0.6rem !important;
+}
+
+article h1::before {
+  content: "# ";
+}
+
+article header > h2 {
+  line-height: 1.7rem !important;
+  margin-bottom: 0.5rem;
+}
+
+article header > h2 a {
+  font-size: 28px;
+}
+
 .navbar {
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);

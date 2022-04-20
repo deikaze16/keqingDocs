@@ -31,8 +31,16 @@ Note : You can use this command on any servers
 #### Random question
 > "How to disable Server drop ping?"
 >
-> — *Some random owner*
+> — *@Some random owner*
 
 #### Answer
 - Run `[p]dropwath` again
 - Click the <button class="btn btn-danger">Disable this feature</button> button
+
+> "How to restrict `adropwatch` command to only certain role?"
+>
+> — *@Some random owner*
+
+#### Answer
+- We have `adropaccess` command, you can use that
+- The usage is `adropaccess` <*@role* | false>

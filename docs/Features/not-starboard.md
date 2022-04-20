@@ -2,18 +2,41 @@
 
 ![(Not) Starboard](/img/features/starboard.png)
 
-### How To use
+Display your best drops and other messages from Karuta.
+### Setting-up
 
-- First, if you are an Admin please run this command to set the log channel.
+#### Format :
+`[p]setlogchannel <#channel>`
 
+#### Example :
 ```bash
-asetlogchannel #channel
+asetlogchannel #proe-drops
 ```
-> Example: `asetlogchannel #proe-drops`
 
+:::warning
+Only the members with `Administration` permission can use this command.
+:::
+
+
+### Command Information
+
+#### Format :
+`[p]star`
+
+#### Usage :
 - `Reply` the drop message with `[p]star` command
 
 ![](/img/features/star2.png)
 
 - Done 
 ![](/img/features/stardone.png)
+
+
+
+> "How to restrict `astar` command to only certain role?"
+>
+> — *@Some random owner*
+
+#### Answer
+- We have `astaraccess` command, you can use that
+- The usage is `astaraccess` <*@role* | false>

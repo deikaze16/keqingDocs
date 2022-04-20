@@ -11,7 +11,7 @@ All keqing bot command list
 | `ainvite`     | Gives you the invite link of Keqing Bot | ainvite                |
 | `aping`       | Shows the Bot's Latency/Ping            | aping                  |
 | `aserverinfo` | Get server info/stats                   | aserverinfo [serverid] |
-| `astats       | Display the bot's statistic             | astats                 |
+| `astats`      | Display the bot's statistic             | astats                 |
 
 ## Karuta commands
 | Command       | Description                                               | Usage                  |
@@ -19,6 +19,7 @@ All keqing bot command list
 | `awishwatch`  | Pings you whenever someone's WL is dropping               | awishwatch             |
 | `adropwatch`  | Pings you whenever Karuta is dropping cards (Server drop) | adropwatch             |
 | `astar`       | Log your drop to starboard channel.                       | astar                  |
+| `atopwl`      | Display the karuta wishlist leaderboard.                  | atopwl                 |
 | `aframes`     | Shows the available frames for frame testing.             | aframes                |
 | `agetframes`  | Multi frames tester.                        | agetframes &lt;frame type&gt; [page] |
 
@@ -26,7 +27,9 @@ All keqing bot command list
 ## Admin commands
 | Command          | Description                                               | Usage                  |
 |------------------|-----------------------------------------------------------|------------------------|
-| `asetlogchannel` | Set a channel / disable the starboard feature     | asetlogch <#channel/false>     |
-| `awishaccess`    | Enable/disable role require for wishwatch command | awishaccess <@role/false>      |
+| `asetlogchannel` | Set a channel / disable the starboard feature     | asetlogch <*#channel* /false>  |
+| `awishaccess`    | Enable/disable role require for awishwatch command| awishaccess <*@role* /false>   |
+| `astaraccess`    | Enable/disable role require for astar command     | astaraccess <*@role* /false>   |
+| `adropaccess`    | Enable/disable role require for adropwatch command| adropaccess <*@role* /false>   |
 | `asetprefix`     | Change the default prefix                         | asetprefix &lt;new prefix&gt;  |
 | `achannel`       | Disable/enable frame tester & effort calculator in a channel | achannel            |

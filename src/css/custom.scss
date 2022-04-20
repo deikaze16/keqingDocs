@@ -75,6 +75,23 @@ html[data-theme='dark'] {
 	}
 }
 
+article {
+	&.margin-bottom--xl{
+		margin-bottom: 0.6rem !important;
+	}
+	h1 {
+		&::before {
+			content: "# ";
+		}
+	}
+	header > h2 {
+		line-height: 1.7rem !important;
+		margin-bottom: 0.5rem;
+		a{
+			font-size: 28px;
+		}
+	} 
+}
 .navbar {
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }

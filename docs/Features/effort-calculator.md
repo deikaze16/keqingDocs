@@ -20,13 +20,13 @@ import Admonition from '@theme/Admonition';
         <li>..... etc</li>
         </ul>
       </Admonition>
-      <li>Make sure <span className="mention">@Keqing</span> has proper </li>
+      <li>Make sure <span className="mention">@Keqing</span> has proper permissions</li>
       <li>Now you can type <code>kwi [your card code]</code> on the channel the you just set it up.</li>
     </ul>
   </TabItem>
   <TabItem value="reaction" label="Reaction Trigger">
     <ul>
-      <li>Make sure <span className="mention">@Keqing</span> has proper </li>
+      <li>Make sure <span className="mention">@Keqing</span> has proper permissions</li>
       <li>Type <code>kwi [your card code]</code> on a channel.</li>
       <li>Now react with 🔢</li>
     </ul>
@@ -41,3 +41,14 @@ If your card's condition is `mint` the calculation should be **mostly accurate**
 - **Max Vanity** = a condition where your card is S grade or reaches Maxed A grade Vanity. High printed cards **most likely will never** reaches this condition.
 - **X Toughness** = You can gain it from `dating system`.
 - **Max Possible Effort** = (Current Effort (Mystic + Framed)) + (S Vanity / Maxed A Vanity) + (S Toughness) + Additional Wellness. If your card is high printed, **Do not** look at the `Max A. vanity + S. tough.` stats.
+
+#### FAQ
+
+> "Can i disable Effort calculator in some channels?"
+>
+> — *@Some random owner*
+
+#### Answer
+- We have `achannel` command, you can use that
+- Go to the channel you want and run the command.
+- Run the `achannel` command and then click the <button class="btn btn-primary">Toggle features</button> button, select the `Effort calculator` option and done

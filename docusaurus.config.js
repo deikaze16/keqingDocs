@@ -123,6 +123,9 @@ const config = {
               {
                 label: 'Privacy Policy',
                 to: '/privacy-policy'
+              },{
+                label: 'Commands',
+                to: '/commands'
               },
             ],
           },

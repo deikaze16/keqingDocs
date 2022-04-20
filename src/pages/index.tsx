@@ -33,13 +33,13 @@ function Why() {
 					<Col span={18} offset={4}>
 						<Row>
 							<Col span={7}>
-								<Statistic title="Total servers" value={`22K+`} />
+								<Statistic title="Total servers" value={`25.6K+`} />
 							</Col>
 							<Col span={7}>
-								<Statistic title="Total users" value={`6M+`} />
+								<Statistic title="Total users" value={`7M+`} />
 							</Col>
 							<Col span={7}>
-								<Statistic title="Server members" value={`4K+`} />
+								<Statistic title="Server members" value={`5K+`} />
 							</Col>
 						</Row>
 					</Col>
