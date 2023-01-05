@@ -15,7 +15,7 @@ button
 ```bash
 awishwatch
 ```
-To remove your *@Wishlist Ping* role, just click the <button class="btn btn-danger">Disable My Wishlist ping</button> button
+To remove your <span class="mention">@Wishlist Ping</span> role, just click the <button class="btn btn-danger">Disable My Wishlist ping</button> button
 
 Note : You can use this command on any servers
 :::
@@ -23,7 +23,7 @@ Note : You can use this command on any servers
 ![](/img/features/wish.png ':size=100%')
 
 :::warning Important
-*@Keqing* must have the <code>MANAGE ROLES</code> perms
+<span class="mention">@Keqing</span> must have the <code>MANAGE ROLES</code> perms
 :::
 
 
@@ -41,5 +41,5 @@ awishaccess <@role | false>
 - Press the <button class="btn btn-danger">Disable this feature</button> button
 
 :::warning
-Important *@Keqing* will delete the *@Wishlist Ping* role after it is disabled.
+Important <span class="mention">@Keqing</span> will delete the <span class="mention">@Wishlist Ping</span> role after it is disabled.
 :::

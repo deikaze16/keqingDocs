@@ -21,7 +21,8 @@ All keqing bot command list
 | `astar`        | Log your drop to starboard channel.                       | astar                  |
 | `/topwishlist` | Display the karuta wishlist leaderboard.                  | /topwishlist           |
 | `aframes`      | Shows the available frames for frame testing.             | aframes                |
-| `agetframes`   | Multi frames tester.                        | agetframes &lt;frame type&gt; [page] |
+| `agetframes`   | Multi frames tester.                        | agetframes &lt;frame type&gt; [page] (reply) |
+| `atopframes`   | Most tested frames on for a character.                     | atopframes (reply)    |
 | `atrace`			 | Find specific card bellow 500 print												| atrace [filters]			|
 | `aschedule`		 | Display the release schedule for upcoming cards						| aschedule [filters]		|
 | `agetid`			 | Get the owner informations of a karuta card		 | agetid `(reply)` to `kci` or `kv`|
@@ -32,9 +33,9 @@ All keqing bot command list
 ## Admin commands
 | Command          | Description                                               | Usage                  |
 |------------------|-----------------------------------------------------------|------------------------|
-| `asetlogchannel` | Set a channel / disable the starboard feature     | asetlogch <*#channel* /false>  |
-| `awishaccess`    | Enable/disable role require for awishwatch command| awishaccess <*@role* /false>   |
-| `astaraccess`    | Enable/disable role require for astar command     | astaraccess <*@role* /false>   |
-| `adropaccess`    | Enable/disable role require for adropwatch command| adropaccess <*@role* /false>   |
+| `asetlogchannel` | Set a channel / disable the starboard feature     | asetlogch <<span class="mention">#channel</span> /false>  |
+| `awishaccess`    | Enable/disable role require for awishwatch command| awishaccess <<span class="mention">@role</span> /false>   |
+| `astaraccess`    | Enable/disable role require for astar command     | astaraccess <<span class="mention">@role</span> /false>   |
+| `adropaccess`    | Enable/disable role require for adropwatch command| adropaccess <<span class="mention">@role</span> /false>   |
 | `asetprefix`     | Change the default prefix                         | asetprefix &lt;new prefix&gt;  |
 | `achannel`       | Disable/enable frame tester & effort calculator in a channel | achannel            |

@@ -18,18 +18,18 @@ Basically same as the [Wishlist Notifier](./wishlist-notifier)
 ```bash
 adropwatch
 ```
-To remove your *@Server Drop Ping* role, just click the <button class="btn btn-danger">Disable My Ping</button> button
+To remove your <span class="mention">@Server Drop Ping</span> role, just click the <button class="btn btn-danger">Disable My Ping</button> button
 
 Note : You can use this command on any servers
 :::
 
 :::warning Important
-*@Keqing* must have the <code>MANAGE ROLES</code> perms
+<span class="mention">@Keqing</span> must have the <code>MANAGE ROLES</code> perms
 :::
 
 ### Role restriction
 
-This feature can be limited so that a role is required to obtain the *@Server Drop Ping*.
+This feature can be limited so that a role is required to obtain the <span class="mention">@Server Drop Ping</span>
 
 ```
 Format : [p]adropaccess <@role | false>
@@ -44,5 +44,5 @@ Use false to make it available to all members.
 - Press the <button class="btn btn-danger">Disable this feature</button> button
 
 :::warning
-Important *@Keqing* will delete the *@Server Drop Ping* role, which means all members will lose the role.
+Important <span class="mention">@Keqing</span> will delete the <span class="mention">@Server Drop Ping</span> role, which means all members will lose the role.
 :::

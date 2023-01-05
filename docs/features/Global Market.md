@@ -1,3 +1,9 @@
+---
+sidebar_position: 12
+title: Global Market
+description: Karuta Global Market
+---
+
 # Global Market
 
 ![Global Market](/img/features/market.png)

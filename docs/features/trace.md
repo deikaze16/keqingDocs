@@ -1,3 +1,9 @@
+---
+sidebar_position: 5 
+title: Card Tracer
+description: Find low print and mid print of any character up to .#500.
+---
+
 # Card Tracer
 
 ![Card Tracer](https://cdn.discordapp.com/attachments/867945490786959382/977516813258719282/unknown.png)
@@ -10,7 +16,7 @@ Command : ```atrace [filters]```
 The filters used are similar to the filters used in Karuta's collection 
 :::
 
-All of these codes are obtained from **a player's collection**, when a card is **viewed**, or when **the card info is shown**. Any server where *@Keqing* or *@Mikey* bot is present will have the cards' data saved to the database. As we're using the **same database**, card codes saved by *@Mikey* will also show up in our atrace.
+All of these codes are obtained from **a player's collection**, when a card is **viewed**, or when **the card info is shown**. Any server where <span class="mention">@Keqing</span> or <span class="mention">@Mikey</span> bot is present will have the cards' data saved to the database. As we're using the **same database**, card codes saved by <span class="mention">@Mikey</span> will also show up in our atrace.
 
 Some may have concerns about this as it might've violated Karuta's rules. It also bypasses a player's private collection - the card they're hiding are still seen by everyone. There's also the tendency to get scammed because of this. We've considered all of them, and here is our take about those matters:
 
@@ -18,4 +24,21 @@ Some may have concerns about this as it might've violated Karuta's rules. It als
 - The codes can still be found even if a bot doesn't save them. The codes are limited to alphanumeric characters, and cards dropped at a certain time range only differs by 2-3 characters. As long as they know when it dropped, any player can just test all the possible codes, given enough time and determination  (assuming they don't get blacklisted for spamming). If you don't want to sell your card, just decline all offers. Turn off direct messages from server members and limit them to your friends only. However, if you still don't want it to be shown, we'll be adding a command to hide a card in atrace.
 - It's part of the game to learn the latest market pricing of card and items. To prevent getting ripped-off/low balled, ask around the official server's *#player-advice*, use a card pricing guide, or wait for more offers.
 
-We hope this feature would make this game better. Players can look for their favorite cards and sellers will surely receive the best offer for their cards. If you have further concerns about the feature, use *#📩・feedback-and-suggestions*.
+We hope this feature would make this game better. Players can look for their favorite cards and sellers will surely receive the best offer for their cards. If you have further concerns about the feature, use <span class="mention">#📩・feedback-and-suggestions</span>.
+
+## Hiding a card from trace
+
+#### FAQ
+
+> "How do i hide my card from the trace feature?"
+>
+> — <span class="mention">@Some random person</span>
+
+#### Answer
+
+- Run `kci <code>` or `kv <code>`
+- Reply to the karuta's embed with `atracehide`
+- Done.
+- To unhide it again, just run `atraceunhide` instead of `atracehide` command
+
+

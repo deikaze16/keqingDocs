@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Keqing Bot
+description: Karuta multi-functions bot
 slug: /
 ---
 

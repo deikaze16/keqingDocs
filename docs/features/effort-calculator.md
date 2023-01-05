@@ -1,12 +1,14 @@
 ---
 sidebar_position: 1
+title: Effort Calculator
+description: Calculate your work effort card
 ---
-
-# Effort Calculator
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
+
+# Effort Calculator
 
 ![Effort Calculator](/img/features/effort.png ':size=100%')
 
@@ -49,7 +51,7 @@ If your card's condition is `mint` the calculation should be **mostly accurate**
 
 > "Can i disable Effort calculator in some channels?"
 >
-> — *@Some random owner*
+> — <span class="mention">@Some random owner</span>
 
 #### Answer
 - We have `achannel` command, you can use that

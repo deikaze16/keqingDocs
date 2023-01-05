@@ -28,7 +28,7 @@
   --ifm-background-color: #36393f;
   // color: hsl(210, calc(1 * 2.9%), 86.7%);
 
-  .container, main, body, .main-wrapper {
+  main, body, .main-wrapper {
     background: #36393f;
   }
   .menu {
@@ -73,11 +73,28 @@
   }
 
   .mention {
-    color: rgb(201,205,251);
-    background: rgba(88,101,242,0.3);;
+    color: rgb(201,205,251) !important;
+    background: rgba(88,101,242,0.3) !important;
   }
   .footer {
     background: #292b2f;
+    color: #d8d8d8;
+    .footer__title {
+      color: #ffffff;
+    }
+    a {
+      color: #d8d8d8;
+    }
+  }
+
+  .card {
+    background: #2f3136;
+    border: 0;
+  }
+
+  .text--truncate:not(h2) {
+    color: #b1b3b5;
+    font-size: 15px;
   }
 }
 
@@ -89,11 +106,22 @@ b, strong {
   font-weight: 700;
 }
 .menu {
-  background: #f2f3f5
+  background: #f2f3f5;
+  .menu__link:not(.menu__link--sublist)::before{
+    content: "#";
+    padding-right: 5px;
+  }
 }
 
 .footer {
   background-color: #ebedef;
+  color: #3a3c3e;
+  .footer__title {
+    color: #000000;
+  }
+  a {
+    color: #3a3c3e;
+  }
 }
 
 article {
@@ -145,8 +173,8 @@ article {
   font-weight: 500;
   position: relative;
   padding: 0 2px;
-  color: rgb(88,101,242);
-  background: rgba(88,101,242, 0.15);
+  color: rgb(88,101,242) !important;
+  background: rgba(88,101,242, 0.15) !important;
 }
 
 code {
@@ -168,4 +196,24 @@ code {
 
 table {
   width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+.btn {
+	color: #fff;
+	padding: 5px 1rem;
+	border-radius: 5px;
+	background: #0067e0;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background: #0067e0;
+	&:hover {
+		color: #fff;
+		background: darken($color: #0067e0, $amount: 20);
+	}
 }

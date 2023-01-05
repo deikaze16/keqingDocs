@@ -1,3 +1,9 @@
+---
+sidebar_position: 6
+title: Bits Calculator
+description: Computes the total amount of bits in your inventory
+---
+
 # Bits Calculator
 
 ![Bits Calculator](/img/features/bitsCalc.gif)

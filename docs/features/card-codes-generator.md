@@ -1,3 +1,9 @@
+---
+sidebar_position: 7
+title: Card Codes Generator
+description: Copy all the codes in your collection.
+---
+
 # Card Codes Generator
 
 ![Card codes generator](/img/features/codes.png)

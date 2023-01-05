@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: Frame Tester
+description: Test a frame into a card without having it.
 ---
 
 # Frame Tester
@@ -31,7 +33,7 @@ This list can be expanded by suggesting frame aliases in our [Frame Alias thread
 
 > "Can i disable Frame tester in some channels?"
 >
-> — *@Some random owner*
+> — <span class="mention">@Some random owner</span>
 
 #### Answer
 - We have `achannel` command, you can use that

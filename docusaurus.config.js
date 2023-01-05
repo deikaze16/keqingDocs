@@ -6,27 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
+  title: 'Keqing Bot',
+	tagline: 'Karuta Multi-functions Bot',
+	url: 'https://deikaze16.github.io',
+	baseUrl: '/',
+	trailingSlash: false,
+	onBrokenLinks: 'ignore',
+	onBrokenMarkdownLinks: 'warn',
+	favicon: 'img/favicon.ico',
+	deploymentBranch: 'deploy',
+	organizationName: 'deikaze16',
+	projectName: 'keqingDocs',
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -42,13 +32,15 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/deikaze16/keqingDocs/edit/master',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+          
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -75,7 +67,7 @@ const config = {
             position: 'right',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          // {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://discord.gg/keqingbot',
             label: 'Support',
@@ -94,46 +86,49 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Ko-fi',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                html: `<a href="https://ko-fi.com/keqingbotdev"><img alt="Indonesia" src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11ddcc39341db4958c5cc_Supportbutton.png" style="max-width:200px"></img></a>`,
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Useful links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Docs',
+                to: '/'
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Support Server',
+                href: 'https://discordapp.com/invite/keqingbot',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Privacy Policy',
+                to: '/privacy-policy'
+              },{
+                label: 'Terms of Service',
+                to: '/tos'
+              },{
+                label: 'Commands',
+                to: '/commands'
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Contact',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                html: `Discord:   <span class="mention">@Dei#4445</span>`
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                html: `Support server:   <a class="mention" href="https://discord.gg/keqingbot">Keqing [Bot] Mains</a>`
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Keqing Bot. Built with ❤️ in <img alt="Indonesia" src="https://paimon.moe/images/locales/id.svg" width="20px" style="border-radius:50%">`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,3 +1,9 @@
+---
+sidebar_position: 5
+title: Morph Tester 
+description: Frame tester with (fake) morph features.
+---
+
 # Morph Tester	
 import Color from '../../src/components/color.tsx'
 

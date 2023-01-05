@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+title: Multiframe Tester ⭐
+description: Test multiple frames at once.
+---
+
 # Multiframe Tester
 
 :::danger Important
@@ -38,7 +44,7 @@ agetframes budokai, arcana, interface, petals
 
 > "Can i disable Multiframe tester in some channels?"
 >
-> — *@Some random owner*
+> — <span class="mention">@Some random owner</span>
 
 #### Answer
 - We have `achannel` command, you can use that

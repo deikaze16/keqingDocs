@@ -29,14 +29,15 @@ Only the members with `Administration` permission can use this command.
 ![](/img/features/star2.png)
 
 - Done 
+
 ![](/img/features/stardone.png)
 
 
 
 > "How to restrict `astar` command to only certain role?"
 >
-> — *@Some random owner*
+> — <span class="mention">@some random owner</span>
 
 #### Answer
 - We have `astaraccess` command, you can use that
-- The usage is `astaraccess` <*@role* | false>
+- The usage is `astaraccess` <<span class="mention">@role</span> | false>
