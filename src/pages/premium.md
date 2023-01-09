@@ -16,6 +16,7 @@
 |Auto reaction for Bits calculator 			               | ❌ No        | ✅ Yes       |
 |Set Role require for wishwatch command                | ❌ No        | ✅ Yes       |
 |Multi frame tester  										               | ❌ No        | ✅ Yes       |
+|Morph Tester  													               | 1 Style only | 6 Style       |
 |Add your cards to the market   				               | ❌ No        | ✅ Yes       |
 
 ----
@@ -24,7 +25,7 @@
 
 1. You can support us by donating through my Ko-fi. `($2/month for 1 server)`
 2. You can also support by paying in tickets. `(20 tickets/month for 1 server)`
-3. You can also boost our server.
+3. ~~You can also boost our server.~~ (Currently unavailable)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H04U7IR)
 

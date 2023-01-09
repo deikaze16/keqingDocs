@@ -1,0 +1,21 @@
+p {
+	a {
+		color: $main;
+		&:hover{
+			color: darken($color: $main, $amount: 10);
+		}
+	}
+}
+
+a {
+	&.hash-link {
+		color: $main;
+		&:hover{
+			color: $main;
+		}
+	}
+}
+
+html[data-theme='dark'] {
+	
+}

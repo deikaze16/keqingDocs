@@ -12,14 +12,14 @@ We are very much aware about how important privacy is for our users. We take a l
 
 By using the Bot you understand that we collect the following data:
 
-- Message content, reactions and button interactions
+- Message content, Message Embeds, reactions and button interactions
 - Usernames, avatars, discriminators, User IDs.
 - Guild Channel, Guild Roles, Guild IDs
 
 Any data needed for standard operation of Discord bots, such as server permissions and/or essential features in the Bot.
 
 :::note
-Keqing Bot does not share or sell your personal information for advertising or marketing purposes. Additionally, we don’t share your personally identifying information with any third-parties, except when it is required by law.
+Keqing Bot does not share or sell your __personal__ information for advertising or marketing purposes.
 :::
 
 ## Data deletion

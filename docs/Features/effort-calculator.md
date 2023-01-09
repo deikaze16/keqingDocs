@@ -34,7 +34,7 @@ import Admonition from '@theme/Admonition';
 </Tabs>
 
 ### Important Note
-If your card's condition is `mint` the calculation should be **mostly accurate**, However if your cards is not mint yet, the calculations are **less accurate**."
+If your card's condition is `mint` the calculation should be **mostly accurate**, However if your cards is not mint yet, the calculations are **less accurate**.
 
 ### Other calculation info
 - **Vanity** = What is vanity? The lower card's print number relative to amount printed, the more this effort modifier will increase. Thus, card will gain in this modifier `as time passes`.

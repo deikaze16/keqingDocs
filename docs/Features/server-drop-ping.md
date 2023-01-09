@@ -27,20 +27,22 @@ Note : You can use this command on any servers
 *@Keqing* must have the <code>MANAGE ROLES</code> perms
 :::
 
+### Role restriction
 
-#### Random question
-> "How to disable Server drop ping?"
->
-> — *@Some random owner*
+This feature can be limited so that a role is required to obtain the *@Server Drop Ping*.
 
-#### Answer
-- Run `[p]dropwath` again
-- Click the <button class="btn btn-danger">Disable this feature</button> button
+```
+Format : [p]adropaccess <@role | false>
+```
 
-> "How to restrict `adropwatch` command to only certain role?"
->
-> — *@Some random owner*
+:::info
+Use false to make it available to all members.
+:::
 
-#### Answer
-- We have `adropaccess` command, you can use that
-- The usage is `adropaccess` <*@role* | false>
+### Disable Feature
+- Run `[p]dropwath` command
+- Press the <button class="btn btn-danger">Disable this feature</button> button
+
+:::warning
+Important *@Keqing* will delete the *@Server Drop Ping* role, which means all members will lose the role.
+:::

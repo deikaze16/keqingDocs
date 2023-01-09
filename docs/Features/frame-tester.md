@@ -11,12 +11,8 @@ We also provide built-in Frame tester.
 - Enter the frame name.
 
 :::tip
-Use `[p]frames` to see the frames available in Keqing.
-:::
-
-:::danger Important
-- For non-premium servers, you need to react 🖌️ **manually**.
-- *Keqing* doesn't support testing dyes or mophs on a card 
+- Use `[p]frames` to see the frames available in Keqing.
+- For non-premium servers, you need to add the 🖌️ (`:paintbrush:`) **manually**.
 :::
 
 ### Frame Alias

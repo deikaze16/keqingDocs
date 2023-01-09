@@ -2,7 +2,7 @@
 
 ![Wishlist Notifier](/img/features/wish2.png)
 
-### How to use
+### Setting-up
 - First, if you want to use this feature, you need to enable it in your server.
 - How? If you are an admin, just click the <button class="btn btn-success">Enable this feature</button>
 button
@@ -26,19 +26,20 @@ Note : You can use this command on any servers
 *@Keqing* must have the <code>MANAGE ROLES</code> perms
 :::
 
+
 :::tip
-For premium servers, you can set the `Role requirement` to run the `[p]wishwatch` command. Means you can combine it with `mee6` or other bots. <br/><br/>
+- The role can be renamed as long as it includes Wishlist anywhere, case-insensitive
+- For premium servers, you can set the `Role requirement` to run the `[p]wishwatch` command. Means you can combine it with `mee6` or other bots. <br/><br/>
 **Command** : 
 ```bash
 awishaccess <@role | false>
 ```
 :::
 
-#### Random question
-> "How to disable Wishlist Ping?"
->
-> — *Some random owner*
+### Disable Feature
+- Run the `[p]wishwatch` command
+- Press the <button class="btn btn-danger">Disable this feature</button> button
 
-#### Answer
-- Run `[p]wishwatch` again
-- Click the <button class="btn btn-danger">Disable this feature</button> button
+:::warning
+Important *@Keqing* will delete the *@Wishlist Ping* role after it is disabled.
+:::

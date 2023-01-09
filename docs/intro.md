@@ -1,21 +1,23 @@
 import Admonition from '@theme/Admonition';
 import { Badge, Card } from 'antd';
 
+---
+
 # Introduction
 
 ## What is Keqing Bot?
 
-Keqing bot is a Discord bot, made to help Karuta players to calculate their work effort's cards, frames testing, and many more.
+The Keqing bot is a Discord bot that helps Karuta players test frames, calculate work effort, price cards, and more!
 
-<Badge.Ribbon text="v6.6.2">
+<Badge.Ribbon text="v7.0.0">
   <Admonition type="note" title="Introduction">
     <ul>
       <li>Bot Name : <b>Keqing Bot</b></li>
-      <li>Developer: <em>@Dei#6089</em></li>
+      <li>Developer: <em>@Dei#4445</em></li>
       <li>Support Server : <a href="https://discord.gg/keqingbot">Keqing [Bot] Mains</a></li>
       <li>Prefix : <code>a</code></li>
       <li>Libraries : <code>discord.js</code>, <code>mongoose</code>, <code>mathjs</code>, <code>canvas</code>, <code>express</code></li>
-      <li>Used by : 6,09 million people in more than 22,000+ servers</li>
+      <li>Used by : 8.8 million people in more than 43,700+ servers</li>
     </ul>
   </Admonition>
 </Badge.Ribbon>
@@ -52,7 +54,7 @@ Do not literally type out `< > [ ] |` etc
 :::
 
 ### How to setup
-In order to use this bot, you must grants these permissions to *@Keqing*
+In order to use this bot, you must grant these permissions to *@Keqing*
 
 - Read Text Channels
 - Send Messages

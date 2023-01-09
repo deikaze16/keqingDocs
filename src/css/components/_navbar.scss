@@ -1,0 +1,42 @@
+.navbar {
+	background: $light;
+	.navbar__title {
+		font-size: 20px;
+		color: $main !important;
+	}
+	a {
+		font-weight: 600;
+		color: #5b5e64;
+		&:hover{
+			color: #202223 !important;
+		}
+	}
+	a.navbar__link--active {
+		color: $main !important;
+		&:hover {
+			color: $main !important;
+		}
+	}
+}
+
+html[data-theme="dark"] {
+	.navbar {
+		background: $dark;
+		.navbar__title {
+			font-size: 20px;
+		}
+		a {
+			font-weight: 600;
+			color: #fff;
+			&:hover{
+				color: $main !important;
+			}
+		}
+		a.navbar__link--active {
+			color: #fff !important;
+			&:hover {
+				color: #916BBF !important;
+			}
+		}
+	}
+}

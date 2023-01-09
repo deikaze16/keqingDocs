@@ -13,7 +13,7 @@ This feature is available for premium servers only
 
 **Format** : `[p]getframes <type> [page]`
 
-> Type : bits, carousel, special, event, bits type (e.g wood, stone)
+> `<type>` = bits, carousel, special, event, transparent, bits type (e.g wood, stone), or Frame names
 
 **Aliases** : `[p]getf`, `[p]getframe`, `[p]multif`, `[p]multiframe`
 

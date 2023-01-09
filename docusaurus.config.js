@@ -11,7 +11,7 @@ const config = {
 	url: 'https://deikaze16.github.io',
 	baseUrl: '/',
 	trailingSlash: false,
-	onBrokenLinks: 'throw',
+	onBrokenLinks: 'ignore',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
 	deploymentBranch: 'deploy',
@@ -23,14 +23,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/', 
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/deikaze16/keqingDocs/edit/master',
         },
-        blog: {
-          showReadingTime: true,
-          // editUrl:
-          //   'https://github.com/deikaze16/keqingDocs/edit/master/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // editUrl:
+        //   //   'https://github.com/deikaze16/keqingDocs/edit/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -41,60 +42,33 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'keqing bot, keqing, keqing bot discord, keqing bot for karuta, keqing Karuta, keqing bot karuta, how to setup keqin bot'}],
       colorMode: {
-				// disableSwitch: true,
-				// defaultMode: 'light',
-				switchConfig: {
-					darkIcon: '🌙',
-					darkIconStyle: {
-						marginLeft: '1px',
-						marginTop: '-2px'
-					},
-					lightIcon: '🔅',
-					lightIconStyle: {
-						marginLeft: '1px',
-					},
-				}
-			},
-			announcementBar: {
-				id: 'note',
-				content:
-					'This website is still under development',
-				backgroundColor: '#17213c',
-				textColor: '#fff',
-				isCloseable: false,
-			},
+        defaultMode: "dark",
+      },
       navbar: {
         title: 'Keqing Bot',
         logo: {
           alt: 'Keqing Bot Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
-            label: 'Blog',
-            to: '/blog'
-          },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'left',
-          // },
-          {
-            to: '/premium',
-            className: 'button button--outline',
             position: 'right',
-            label: 'Get Premium',
+            label: 'Documentation',
           },
           {
             href: 'https://discord.gg/keqingbot',
             label: 'Support',
             position: 'right',
+          },
+          {
+            to: '/premium',
+            className: 'text-gold',
+            position: 'right',
+            label: 'Get Premium',
           },
         ],
       },
@@ -114,7 +88,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: 'docs/intro'
+                to: '/intro'
               },
               {
                 label: 'Support Server',
@@ -123,6 +97,9 @@ const config = {
               {
                 label: 'Privacy Policy',
                 to: '/privacy-policy'
+              },{
+                label: 'Terms of Service',
+                to: '/tos'
               },{
                 label: 'Commands',
                 to: '/commands'
@@ -133,8 +110,11 @@ const config = {
             title: 'Contact',
             items: [
               {
-                html: `Discord:   <span class="mention">@Dei#6089</span>`
+                html: `Discord:   <span class="mention">@Dei#4445</span>`
               },
+              {
+                html: `Support server:   <a class="mention" href="https://discord.gg/keqingbot">Keqing [Bot] Mains</a>`
+              }
             ],
           },
         ],
@@ -145,20 +125,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    // i18n: {
-    //   defaultLocale: 'en',
-    //   locales: ['en', 'id'],
-    //   localeConfigs: {
-    //     en: {
-    //       htmlLang: 'en-US',
-    //     },
-    //     // You can omit a locale (e.g. fr) if you don't need to override the defaults
-    //     id: {
-    //       htmlLang: 'id-ID',
-    //     },
-    //   },
-    // },
-  
 };
 
 module.exports = config;
