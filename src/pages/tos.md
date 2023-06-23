@@ -10,6 +10,8 @@ Using <span class="mention">@Keqing</span> is at-will and can be terminated at a
 
 <span class="mention">@Keqing</span> is not affiliated with Discord nor Karuta in any way.
 
+---- 
+
 # Usage
 
 The main purpose of <span class="mention">@Keqing</span> is a Karuta Helper bot.

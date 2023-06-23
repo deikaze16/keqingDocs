@@ -1,36 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #5865f2;
-  --ifm-color-primary-dark: #3949f0;
-  --ifm-color-primary-darker: #2a3bee;
-  --ifm-color-primary-darkest: #1121d6;
-  --ifm-color-primary-light: #7781f4;
-  --ifm-color-primary-lighter: #868ff6;
-  --ifm-color-primary-lightest: #b4baf9;
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
 [data-theme=dark] {
-  --ifm-color-primary: #5865f2;
-  --ifm-color-primary-dark: #3949f0;
-  --ifm-color-primary-darker: #2a3bee;
-  --ifm-color-primary-darkest: #1121d6;
-  --ifm-color-primary-light: #7781f4;
-  --ifm-color-primary-lighter: #868ff6;
-  --ifm-color-primary-lightest: #b4baf9;
-  --ifm-background-color: #36393f;
+  --ifm-color-primary: #eeb409;
+  --ifm-color-primary-dark: #d6a208;
+  --ifm-color-primary-darker: #ca9908;
+  --ifm-color-primary-darkest: #a77e06;
+  --ifm-color-primary-light: #f6be19;
+  --ifm-color-primary-lighter: #f7c225;
+  --ifm-color-primary-lightest: #f8cc49;
 }
 [data-theme=dark] main, [data-theme=dark] body, [data-theme=dark] .main-wrapper {
-  background: #36393f;
+  background: #21222c;
 }
 [data-theme=dark] .menu {
-  background: #2f3136;
+  background: #21222c;
+  border-right: 2px solid #262630;
 }
 [data-theme=dark] .menu .menu__link {
   color: #8d8f94;
@@ -48,29 +32,42 @@
   padding-right: 5px;
 }
 [data-theme=dark] .menu li > .menu__link--active {
-  background: #42464d;
-  border-right: 3px solid #0067e0;
-  color: hsl(0deg, 0%, 100%);
+  background: #2d2d37;
+  color: #f6be19;
+}
+[data-theme=dark] .navbar {
+  background: #21222c;
+}
+[data-theme=dark] .navbar a.navbar__link--active, [data-theme=dark] .navbar a:hover {
+  color: #f6be19 !important;
+}
+[data-theme=dark] .tabs__item--active {
+  color: #f6be19;
+  border-bottom-color: #f6be19;
+}
+[data-theme=dark] .table-of-contents__link--active, [data-theme=dark] .table-of-contents__link:hover {
+  color: #f6be19;
 }
 [data-theme=dark] article a {
-  color: rgb(0, 176, 244);
+  color: #f6be19;
 }
 [data-theme=dark] article a:hover {
-  color: rgb(0, 176, 244);
+  color: #f6be19;
 }
-[data-theme=dark] .theme-admonition {
-  background: #2f3136;
+[data-theme=dark] nav a.pagination-nav__link {
+  color: #f5ba0a;
+  border-color: #f6be19;
 }
 [data-theme=dark] code {
-  background: hsl(216deg, 7.2%, 13.5%) !important;
-  scrollbar-color: hsl(223deg, 6.9%, 19.8%) hsl(216deg, 7.2%, 13.5%);
+  background: hsl(216, 7.2%, 13.5%) !important;
+  scrollbar-color: hsl(223, 6.9%, 19.8%) hsl(216, 7.2%, 13.5%);
 }
 [data-theme=dark] .mention {
   color: rgb(201, 205, 251) !important;
   background: rgba(88, 101, 242, 0.3) !important;
 }
 [data-theme=dark] .footer {
-  background: #292b2f;
+  background: #262834;
   color: #d8d8d8;
 }
 [data-theme=dark] .footer .footer__title {
@@ -87,9 +84,49 @@
   color: #b1b3b5;
   font-size: 15px;
 }
+[data-theme=dark] .theme-admonition-info {
+  color: #f6be19;
+  background: rgba(239, 197, 27, 0.092);
+  border: none;
+}
+[data-theme=dark] .theme-admonition-warning, [data-theme=dark] .theme-admonition-danger {
+  color: #d14670;
+}
+[data-theme=dark] .theme-admonition-tip {
+  color: #45c26d;
+}
+[data-theme=dark] .theme-admonition-tip a {
+  color: #45c26d;
+}
+[data-theme=dark] article h2 {
+  border-color: #383838;
+}
+[data-theme=dark] table code {
+  color: #f6be19;
+  font-weight: bold;
+  font-size: 15px;
+  background: transparent !important;
+}
 
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #5865f2;
+  --ifm-color-primary-dark: #3949f0;
+  --ifm-color-primary-darker: #2a3bee;
+  --ifm-color-primary-darkest: #1121d6;
+  --ifm-color-primary-light: #7781f4;
+  --ifm-color-primary-lighter: #868ff6;
+  --ifm-color-primary-lightest: #b4baf9;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 b, strong {
@@ -97,7 +134,7 @@ b, strong {
 }
 
 .menu {
-  background: #f2f3f5;
+  background: #f9f9f9;
 }
 .menu .menu__link:not(.menu__link--sublist)::before {
   content: "#";
@@ -115,31 +152,45 @@ b, strong {
   color: #3a3c3e;
 }
 
+article {
+  padding: 0 32px 128px;
+}
 article h1 {
-  font-weight: 900;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+article h1::before {
+  content: "#";
+  color: #f6be19;
+  margin-right: 0.5rem;
 }
 article h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 32px;
-  line-height: 36px;
-  font-weight: 800;
+  padding-top: 2rem;
+  border-top: 1px solid #eaeaea;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
 }
 article h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
 }
 article p {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 150%;
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 1rem !important;
+  font-family: "Segoe UI", sans-serif;
 }
 article a {
   border-bottom: 3px solid rgba(88, 101, 242, 0.3);
   border-bottom-color: rgba(88, 101, 242, 0.3);
-  color: #0067e0;
+  color: rgb(59, 73, 223);
   text-decoration: none;
   cursor: pointer;
 }
@@ -164,9 +215,8 @@ article img {
 
 .mention {
   border-radius: 3px;
-  unicode-bidi: -moz-plaintext;
   unicode-bidi: plaintext;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   padding: 0 2px;
   color: rgb(88, 101, 242) !important;
@@ -176,18 +226,60 @@ article img {
 code {
   width: auto;
   height: auto;
-  padding: 0.2em;
+  padding: 0.1em 0.25em;
   margin: -0.2em 0;
   border-radius: 3px;
   font-size: 85%;
   text-indent: 0;
   border: none;
   white-space: pre-wrap;
-  background-color: hsl(216deg, 9.8%, 90%);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-admonition {
+  border: none;
+  margin-top: 1rem;
   max-width: 700px;
+}
+.theme-admonition div {
+  margin-bottom: 1rem;
+}
+.theme-admonition code {
+  font-weight: bold;
+}
+.theme-admonition span {
+  display: none;
+}
+.theme-admonition ul {
+  margin-left: -10px;
+}
+.theme-admonition p {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.theme-admonition-info {
+  color: #00aff4;
+  background-color: rgba(0, 175, 244, 0.06);
+}
+.theme-admonition-info a {
+  color: #00aff4;
+  font-weight: bold;
+}
+
+.theme-admonition-tip {
+  color: rgb(45, 125, 70);
+  background-color: rgba(45, 125, 70, 0.06);
+}
+.theme-admonition-tip a {
+  color: rgb(45, 125, 70);
+  font-weight: bold;
+}
+
+.theme-admonition-warning, .theme-admonition-danger {
+  color: rgb(161, 45, 47);
+  background-color: rgba(161, 45, 47, 0.05);
 }
 
 table {
@@ -212,4 +304,118 @@ table {
 .btn-primary:hover {
   color: #fff;
   background: #00387a;
+}
+
+.lds-ellipsis {
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #8d13d8;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+.sketch {
+  background: #242424;
+}
+.sketch h1 {
+  margin: 2rem 0;
+}
+.sketch .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sketch .card {
+  background: transparent !important;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.sketch .row {
+  background: transparent !important;
+}
+.sketch .card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #6184a8;
+  padding: 2%;
+}
+.sketch .card img {
+  background: transparent !important;
+  width: 228px;
+  height: 342px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sketch .card-desc {
+  display: block;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  color: #000000;
+  background-color: white;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+}
+.sketch .card:hover .card-desc {
+  opacity: 1;
+  height: 100%;
 }/*# sourceMappingURL=custom.css.map */

@@ -16,7 +16,7 @@ We also provide another feature: **Morph testing**! This feature is still in bet
 Non-premium servers can only use test with 1 type only (HUE), upgrade to premium version to be able to test for 6 types
 :::
 
-### How to use
+## How to use
 - Search for the character through `k!lookup` 
 - Select the corresponding edition
 - React with 🖌️.
@@ -34,5 +34,5 @@ Non-premium servers can only use test with 1 type only (HUE), upgrade to premium
 - What are morph types? It's the Blending type. Just experiment with it for now since we're still not sure which one is used by Karuta
 :::
 
-### Color picker
+## Color picker
 <Color />

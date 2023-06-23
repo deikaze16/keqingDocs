@@ -21,7 +21,6 @@ For non-premium servers, you need to add the 📝 (`:pencil:`) reaction manually
 Keqing supports multiple pages. Just change the page and it will add them until it reaches 50 codes.
 :::
 
----
 ## Code Filtering
 
 ![Card codes generator](/img/features/filter.png)
@@ -35,7 +34,7 @@ Choose the codes to be extracted from your collection.
 - Type the character or symbols that will select the codes​​
 
 :::warning
-For non-premium servers, you need to add the 🔍 (:mag:) reaction manually.
+For non-premium servers, you need to add the 🔍 (`:mag:`) reaction manually.
 :::
 
 You can also filter the codes that you want to copy, get all the codes, get all untagged codes, or get under 100 wish card codes (in one page)

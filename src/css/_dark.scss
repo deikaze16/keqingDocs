@@ -1,0 +1,125 @@
+[data-theme='dark'] {
+  --ifm-color-primary: #eeb409;
+  --ifm-color-primary-dark: #d6a208;
+  --ifm-color-primary-darker: #ca9908;
+  --ifm-color-primary-darkest: #a77e06;
+  --ifm-color-primary-light: #f6be19;
+  --ifm-color-primary-lighter: #f7c225;
+  --ifm-color-primary-lightest: #f8cc49;
+
+  main, body, .main-wrapper {
+    background: #21222c;
+  }
+  .menu {
+    background: #21222c;
+    border-right: 2px solid #262630;
+    .menu__link {
+			color: #8d8f94;
+			border-radius: 4px;
+			position: relative;
+			box-sizing: border-box;
+			margin-left: 4px;
+			font-weight: 600;
+			padding: 6px ;
+			display: flex;
+      line-height: 20px;
+      &:not(.menu__link--sublist)::before{
+        content: "#";
+        padding-right: 5px;
+      }
+		}
+    li > .menu__link--active {
+			background: #2d2d37;
+			color: #f6be19	;
+			//color: hsl(0, calc(1 * 0%), 100%);
+		}
+  }
+
+  .navbar {
+    background: #21222c;
+    a.navbar__link--active, a:hover {
+      color : #f6be19	 !important
+    }
+    
+  }
+  .tabs__item--active {
+    color: #f6be19	;
+    border-bottom-color: #f6be19	;
+  }
+  .table-of-contents__link--active,  .table-of-contents__link:hover{
+    color: #f6be19	;
+  }
+
+  article{
+    a {
+      color: #f6be19	;
+      &:hover {
+        color: #f6be19	;
+      }
+    }
+  }
+  
+  nav a.pagination-nav__link {
+    color: darken($color: #f6be19, $amount: 3)	;
+    border-color: #f6be19	;
+  }
+  code {
+    background: hsl(216, calc(1 * 7.2%), 13.5%) !important;
+    scrollbar-color: hsl(223, calc(1 * 6.9%), 19.8%) hsl(216, calc(1 * 7.2%), 13.5%);
+  }
+
+  .mention {
+    color: rgb(201,205,251) !important;
+    background: rgba(88,101,242,0.3) !important;
+  }
+  .footer {
+    background: #262834;
+    color: #d8d8d8;
+    .footer__title {
+      color: #ffffff;
+    }
+    a {
+      color: #d8d8d8;
+    }
+  }
+
+  .card {
+    background: #2f3136;
+    border: 0;
+  }
+
+  .text--truncate:not(h2) {
+    color: #b1b3b5;
+    font-size: 15px;
+  }
+
+  .theme-admonition-info {
+    color: #f6be19	;
+    background: rgba(239, 197, 27, 0.092);
+    border: none;
+  }
+  .theme-admonition-warning, .theme-admonition-danger {
+    color: #d14670;
+  }
+  .theme-admonition-tip {
+    a {
+      color: #45c26d;
+    }
+    color: #45c26d;
+  }
+  
+  article {
+    h2 {
+      border-color: #383838;
+    }
+  }
+
+  table {
+    code {
+      color: #f6be19	;
+      font-weight: bold;
+      font-size: 15px;
+      background: transparent !important;
+  }
+  }
+}

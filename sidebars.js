@@ -39,6 +39,11 @@ module.exports = {
         },
         {
           type: 'doc',
+          id: 'features/future-edition-schedule',
+          label: "Future Edition Schedule"
+        },
+        {
+          type: 'doc',
           id: 'features/bits-calculator',
         },
         {
@@ -69,6 +74,11 @@ module.exports = {
           type: 'doc',
           id: 'features/price-calc',
           label: "Price Calculator"
+        },,
+        {
+          type: 'doc',
+          id: 'features/perks_picker',
+          label: "Perks Picker 🆕"
         },
       ],
     },

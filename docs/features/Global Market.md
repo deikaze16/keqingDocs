@@ -10,11 +10,11 @@ description: Karuta Global Market
 
 ## How to use
 :::info
-Command :
-```
-[p]market [filters]
-```
-Available Filters :
+
+**Command** :
+- `[p]market [filters]`
+
+**Available Filters** :
 - amarket s=sword art `// or series:sword`
 - amarket c=sinon  `// or name:sinon`
 - amarket tag=ticket `// or category:gem`
@@ -24,7 +24,7 @@ Available Filters :
 - amarket stats=sss `//or stat:sff`
 - amarket user=435931308061884416
 
-Sorting:
+**Sorting**:
 - amarket o=print `//or p`
 - amarket order=series `//or s`
 - amarket order by price
@@ -34,13 +34,13 @@ Sorting:
 - amarket o:edition `//or e`
 :::
 
-:::danger
+:::danger NOTE
 This global market will reset every 2-3 weeks
 :::
 
 ## How to add your card to the market
 
-:::danger
+:::danger IMPORTANT
 To prevent more scams, this command is only enabled on our official server and premium servers
 :::
 
@@ -51,13 +51,9 @@ To prevent more scams, this command is only enabled on our official server and p
 ![Global Market](/img/features/marketreply.png)
 
 :::info
-Command
-```
-[p]marketadd <gem|ticket> <amount>
-```
-Aliases : `ma`
-
-Example: amarketadd ticket 10
+- Command : `[p]marketadd <gem|ticket> <amount>`
+- Aliases : `ma`
+- Example: `amarketadd ticket 10`
 :::
 
 ![Global Market](/img/features/marketreply.png)

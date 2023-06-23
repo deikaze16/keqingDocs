@@ -27,7 +27,9 @@ This feature is available for premium servers only
 
 - Search for the character through `k!lookup`
 - Select the corresponding edition
+
 ![Morph Tester](/img/features/mosttest11.png ':size=100%')
+
 - Reply to the lookup embed with the `[p]topframes` command
 
 ## Only Text

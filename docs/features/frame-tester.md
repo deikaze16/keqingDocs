@@ -10,7 +10,7 @@ description: Test a frame into a card without having it.
 
 We also provide built-in Frame tester.
 
-### How to use
+## How to use
 - Search for the character through `k!lookup` 
 - Select the corresponding edition
 - React with 🖌️.
@@ -21,15 +21,15 @@ We also provide built-in Frame tester.
 - For non-premium servers, you need to add the 🖌️ (`:paintbrush:`) **manually**.
 :::
 
-### Frame Alias
+<!-- ## Frame Alias
 
 Some frames have alias(es) which can be also used for frame testing, along with their official names in Karuta.
 
 :::tip
 This list can be expanded by suggesting frame aliases in our [Frame Alias thread](https://discord.com/channels/867089739224317994/896952847713849344)
-:::
+::: -->
 
-#### FAQ
+## FAQ
 
 > "Can i disable Frame tester in some channels?"
 >

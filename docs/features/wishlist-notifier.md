@@ -12,31 +12,26 @@ button
 - After that you can run the command below
 
 :::info Command :
-```bash
-awishwatch
-```
-To remove your <span class="mention">@Wishlist Ping</span> role, just click the <button class="btn btn-danger">Disable My Wishlist ping</button> button
-
-Note : You can use this command on any servers
+- `[p]wishwatch`
 :::
+- To remove your <span class="mention">@Wishlist Ping</span> role, just click the <button class="btn btn-danger">Disable My Wishlist ping</button> button
+- Note : You can use this command on any servers
 
 ![](/img/features/wish.png ':size=100%')
 
 :::warning Important
-<span class="mention">@Keqing</span> must have the <code>MANAGE ROLES</code> perms
+<b class="mention">@Keqing</b> must have the <code>MANAGE ROLES</code> perms
 :::
 
 
-:::tip
+:::info
 - The role can be renamed as long as it includes Wishlist anywhere, case-insensitive
 - For premium servers, you can set the `Role requirement` to run the `[p]wishwatch` command. Means you can combine it with `mee6` or other bots. <br/><br/>
 **Command** : 
-```bash
-awishaccess <@role | false>
-```
+- `[p]wishaccess <@role | false>`
 :::
 
-### Disable Feature
+## Disable Feature
 - Run the `[p]wishwatch` command
 - Press the <button class="btn btn-danger">Disable this feature</button> button
 

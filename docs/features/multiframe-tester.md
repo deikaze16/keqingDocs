@@ -7,23 +7,27 @@ description: Test multiple frames at once.
 # Multiframe Tester
 
 :::danger Important
-This feature is available for premium servers only
+This feature is available for **premium servers** only
 :::
 
 ![Multiframe tester](/img/features/getframes.gif ':size=100%')
 
-### Command Information
+## Command Information
 
+### Command
+:::info
+Format: `[p]getframes <type> [page]`
+  - `<type>` = bits, carousel, special, event, transparent, bits type (e.g wood, stone), or Frame names
+  - `[page]` = optional
+:::
 
-:::info Command:
+### Aliases
+- `[p]getf`
+- `[p]getframe`
+- `[p]multif`
+- `[p]multiframe`
 
-**Format** : `[p]getframes <type> [page]`
-
-> `<type>` = bits, carousel, special, event, transparent, bits type (e.g wood, stone), or Frame names
-
-**Aliases** : `[p]getf`, `[p]getframe`, `[p]multif`, `[p]multiframe`
-
-**Example**  :
+### Example
 ```bash
 agetframes bits 1
 amultiframe carousel 3
@@ -32,7 +36,6 @@ amultif event 2
 agetf stone 1
 agetframes budokai, arcana, interface, petals
 ```
-:::
 
 ### Usage
 
@@ -40,7 +43,7 @@ agetframes budokai, arcana, interface, petals
 - Select the corresponding edition
 - Reply to the lookup embed with the multi-frame tester command
 
-#### FAQ
+## FAQ
 
 > "Can i disable Multiframe tester in some channels?"
 >

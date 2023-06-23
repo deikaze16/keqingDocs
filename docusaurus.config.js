@@ -26,6 +26,7 @@ const config = {
         //   path:"/"
         // },
         docs: {
+          breadcrumbs: false,
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

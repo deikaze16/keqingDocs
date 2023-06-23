@@ -18,7 +18,7 @@ By using the Bot you understand that we collect the following data:
 
 Any data needed for standard operation of Discord bots, such as server permissions and/or essential features in the Bot.
 
-:::note
+:::info Note
 Keqing Bot does not share or sell your __personal__ information for advertising or marketing purposes.
 :::
 
