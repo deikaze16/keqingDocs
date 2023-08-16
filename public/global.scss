@@ -1,0 +1,77 @@
+@import 'dark';
+
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+}
+
+.mention {
+  border-radius: 3px;
+  unicode-bidi: plaintext;
+  font-weight: 600;
+  position: relative;
+  padding: 0 2px;
+  cursor: pointer;
+  color: rgb(88,101,242);
+  background: rgba(88,101,242, 0.15);
+}
+
+code {
+  width: auto;
+  height: auto;
+  padding: 0.1em 0.25em;
+  margin: -.2em 0;
+  border-radius: 3px;
+  font-size: 85%;
+  text-indent: 0;
+  border: none;
+  white-space: pre-wrap;
+  background-color: rgba(0, 0, 0, 0.1);
+  // color: rgb(23, 23, 23);
+}
+
+.resposive {
+  width: auto !important;
+}
+
+label {
+	color: #fff;
+	font-size: 1rem;
+}
+
+input {
+	background: transparent;
+	color: #fff;
+	border: transparent;
+}
+
+input::before{
+	content: "#";
+}
+
+.nextra-steps {
+  h3 {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    align-items: center;
+    //margin-bottom: 1rem
+  }
+}
+
+p.nx-mt-6 > img {
+  max-width: 600px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 3px 1rem;
+  font-weight: 600;
+  color: #ddd;
+}
+.btn-success {
+  background-color: #3ca45d;
+}
+
+.btn-danger {
+  background-color: #eb4446;
+}

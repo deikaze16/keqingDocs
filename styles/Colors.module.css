@@ -1,0 +1,18 @@
+.resposive {
+  width: auto !important;
+}
+
+label {
+	color: #fff;
+	font-size: 1rem;
+}
+
+input {
+	background: transparent;
+	color: #fff;
+	border: transparent;
+}
+
+input::before{
+	content: "#";
+}

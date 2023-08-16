@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+title: Effort Calculator
+description: Calculate your work effort card
+---
+
+import { Tabs, Tab } from 'nextra/components'
+import { Callout } from 'nextra/components'
+
+
+# Effort Calculator
+
+![Effort Calculator](/img/effort.png)
+
+## How to use
+
+There are two ways to use this fearute:
+- Auto-response
+- Reaction trigger
+
+<Tabs items={['Auto-Response', 'Reaction Trigger']}>
+  <Tab>
+    - If you are owner or admin on a server, create a channel with <code>keqing</code>, <code>effort</code> or <code>management</code> on the channel name, for example: 
+      - <span class="mention">#effort-calculator</span>
+      - <span class="mention">#keqing-bot</span>
+      - <span class="mention">#karuta-management</span>
+    - Make sure <span className="mention">@Keqing</span> has proper permissions (`SEND_MESSAGE`, `READ_MESSAGES`, `READ_MESSAGE_HISTORY`, `EMBED_LINKS`
+    - Now you can type `kwi [your card code]` on the channel the you just set it up.
+
+  </Tab>
+  <Tab>
+    - Make sure <span className="mention">@Keqing</span> has proper permissions (`SEND_MESSAGE`, `READ_MESSAGES`, `READ_MESSAGE_HISTORY`, `EMBED_LINKS`)
+    - Type `kwi [your card code]` on a channel.
+    - Now react with 🔢
+  </Tab>
+</Tabs>
+
+<Callout>
+If your card's condition is **mint** the calculation should be **mostly accurate**, However if your cards is not mint yet, the calculations are **less accurate**.
+</Callout>
+
+## Other calculation info
+
+### **Vanity** 
+What is vanity? The lower card's print number relative to amount printed, the more this effort modifier will increase. Thus, card will gain in this modifier `as time passes`.
+### **Max Vanity**
+A condition where your card is S grade or reaches Maxed A grade Vanity. High printed cards **most likely will never** reaches this condition.
+### **"X" Toughness**
+You can gain it from `dating system`.
+### **Max Possible Effort** 
+The formula is (Current Effort (Mystic + Framed)) + (S Vanity / Maxed A Vanity) + (S Toughness) + Additional Wellness. If your card is _high printed_, **Do not** look at the `Max A. vanity + S. tough.` stats.
+
+## FAQ
+
+> Can i disable Effort calculator in some channels?
+>
+> — <span class="mention">@Some random owner</span>
+
+#### Answer
+- We have `achannel` command, you can use that
+- Go to the channel you want and run the command.
+- Run the `achannel` command and then click the <button class="btn btn-primary">Toggle features</button> button, select the `Effort calculator` option and done

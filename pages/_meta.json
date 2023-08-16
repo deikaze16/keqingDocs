@@ -1,0 +1,17 @@
+{
+  "index": "Introduction",
+  "---": {
+    "type": "separator"
+  },
+  "Features": {
+    "bits-calculator": "Bits Calculator",
+    "affordable-frames": "Affordable Frames"
+  },
+  "premium": "Get Premium",
+  "tos" : {
+    "display":"hidden"
+  },
+  "privacy-policy" : {
+    "display":"hidden"
+  }
+}

@@ -1,0 +1,48 @@
+import { Steps } from 'nextra/components'
+import { Callout } from 'nextra/components'
+
+# (Not) Starboard
+
+![(Not) Starboard](/img/starboard.png)
+
+Display your best drops and other messages from Karuta.
+
+## How to use:
+
+<Steps>
+### Setup the channel
+First of all you need to setup the channel where the drops will be displayed.
+Run this commands: 
+
+#### Format :
+- [p]setlogchannel &lt;<span className="mention">#channel</span>>
+
+#### Example :
+- asetlogchannel #proe-drops
+
+<Callout type="warning">
+Only the members with `Administration` permission can use this command.
+</Callout>
+
+### Staring the drop
+- Reply the drop message with [p]star command
+
+![](/img/star2.png)
+- Done
+
+![](/img/stardone.png)
+
+### Important note
+- <span className="mention">@Keqing</span> bot doesn't offer you an automatic starboard, so you will have to do the [p]star command everytime manually.
+</Steps>
+
+
+## FAQ
+
+> "How to restrict `astar` command to only certain role?"
+>
+> — <span class="mention">@some random owner</span>
+
+#### Answer
+- We have `astaraccess` command, you can use that
+- The usage is `astaraccess` &lt;<span class="mention">@role</span> | false>

@@ -1,0 +1,19 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/premium": "pages/premium.js",
+  "/Features/code-extractor": "pages/Features/code-extractor.js",
+  "/Features/affordable-frames": "pages/Features/affordable-frames.js",
+  "/": "pages/index.js",
+  "/Features/bits_calculator": "pages/Features/bits_calculator.js",
+  "/Features/card-tracer": "pages/Features/card-tracer.js",
+  "/Features/effort_calculator": "pages/Features/effort_calculator.js",
+  "/Features/frame_tester": "pages/Features/frame_tester.js",
+  "/Features/future-edition-schedule": "pages/Features/future-edition-schedule.js",
+  "/Features/morph-tester": "pages/Features/morph-tester.js",
+  "/Features/not-starboard": "pages/Features/not-starboard.js",
+  "/Features/perks_picker": "pages/Features/perks_picker.js",
+  "/Features/price-calc": "pages/Features/price-calc.js",
+  "/commands": "pages/commands.js"
+}
